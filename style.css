@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: url(./IMAGENES/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    padding: 30px 40px;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.introduccion {
+    display: flex;
+    flex-direction: column;
+}
+.introduccion h3 {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #ffde23;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 25px;
+    transition: 1s;
+}
+.introduccion p {
+    font-family: 'Changa', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.introduccion h3:hover{
+    color: #fff;
+    text-shadow: 0 0 5px #e0d14b,
+    0 0 25px #f8e112,
+    0 0 50px #fff494,
+    0 0 100px #fff0ac;
+  }
+
+.elegir img {
+    width: 25px;
+}
+.elegir button {
+    width: 150px;
+    height: 30px;
+}
+
+.cartas {
+    display: flex;
+    flex-direction: row;
+}
+.cartas img {
+    width: 300px;
+    padding: 30px;
+}
